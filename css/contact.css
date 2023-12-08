@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Hedvig+Letters+Serif:opsz@12..24&family=Kanit:ital,wght@0,300;1,100;1,200&family=Playfair+Display:ital@1&family=Poppins:wght@800&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Kanit:ital,wght@0,300;1,100;1,200&family=Playfair+Display:ital@1&family=Poppins:wght@800&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+
+}
+html,body {
+    height: 100%;
+    width: 100%;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+.logo {
+    height: 120px;
+  }
+#head {
+    height: 12%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1px 50px;
+      background-color: rgb(252, 249, 249);
+      z-index: 9999;
+      position: sticky;
+      top: 0;
+      left: 0;
+      box-shadow: 0 5px 15px  rgba(0, 0, 0, 0.06);
+  
+  }
+  #nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  #nav li {
+    text-decoration: none;
+    list-style: none;
+    padding: 0 20px;
+  }
+  #nav li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #010101;
+  }
+  #nav li a:hover,
+  #nav li a .active {
+    color: rgb(0, 195, 255);
+    transition: 1.5s ease;
+  }
+  .container {
+    /* position: absolute; */
+    width: 100%;
+    height: 70vh;
+    /* position: relative; */
+    /* background-position: bottom 50px left 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+    background: url("/images/discount-armchair-podium.jpg");
+    background-size: cover; 
+    width: 1519px; 
+    height: 750px;
+    /* scroll-behavior: unset; */
+  }
+  form {
+    margin-top: -110px;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    line-height: 5;
+    text-align: center;
+    background: #fff;
+    opacity: 0.9;
+  }
+  form h3 {
+    color: blue;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    font-family: "Spartan", sans-serif;
+    font-weight: 500;
+    padding: 20px;
+    outline: none;
+    font-size: 15px;
+    }
+  form button {
+    width: 50%;
+    margin-left: 28%;
+    border-radius: 50px;
+    padding: 15px 20px;
+    color: blue;
+    font-weight: 800;
+    font-size: 15px;
+    outline: none;
+    background-color: #E1F3C9;
+    border: none;
+    cursor: pointer;
+  }

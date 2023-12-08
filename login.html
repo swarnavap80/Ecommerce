@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/login.css" />
+    <link rel="shortcut icon" href="/img/Estore-removebg-preview.png" type="image/x-icon">
+    <title>Sign in</title>
+  </head>
+
+  <body>
+    <section id="head" class="section-p1">
+      <a href="#"
+        ><img src="./img/Estore-removebg-preview.png" class="logo" alt=""
+      /></a>
+      <div class="nav-link">
+        <ul id="nav">
+          <li><a class="active" href="./index.html">Home</a></li>
+          <li><a id="act1" href="./shop.html">Shop</a></li>
+          
+          <li><a href="./about.html">About us</a></li>
+          <li><a href="./contact.html">Contact us</a></li>
+          <li>
+            <a href="./cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="container" id="container">
+      <div class="form-container sign-up">
+        <form>
+          <h1>Create Account</h1>
+          <div class="social-icons">
+            <a href="#" class="icon"
+              ><i class="fa-brands fa-google-plus-g"></i
+            ></a>
+            
+              
+            </a>
+          </div>
+          <span>or use your email for registeration</span>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button>Sign Up</button>
+        </form>
+      </div>
+      <div class="form-container sign-in">
+        <form>
+          <h1>Sign In</h1>
+          <div class="social-icons">
+            <a href="#" class="icon"
+              ><i class="fa-brands fa-google-plus-g"></i
+            ></a>
+            </div>
+          <span>or use your email password or Phone </span>
+          <input type="email" placeholder="Email/Phone" />
+          <input type="password" placeholder="Password" />
+          <a href="#">Forget Your Password?</a>
+          <button>Sign In</button>
+        </form>
+      </div>
+      <div class="toggle-container">
+        <div class="toggle">
+          <div class="toggle-panel toggle-left">
+            <h1>Welcome Back!</h1>
+            <p>Enter your personal details to Sign up/login</p>
+            <button class="hidden" id="login">Sign In</button>
+          </div>
+          <div class="toggle-panel toggle-right">
+            <h1>Hello, customers!</h1>
+            <p>
+              Login/ Register to get Exciting offers
+            </p>
+            <button class="hidden" id="register">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/script/index.js"></script>
+  </body>
+</html>
